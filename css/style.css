@@ -2304,6 +2304,17 @@ body.dark .grax_tm_settings .cursor li .svg,
     animation: myAnimPrice 2s infinite .6s
 }
 
+#background-video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	z-index: -1;
+}
+
+
 /*---------------------------------------------------*/
 /*	14) GRAX MEDIA QUERIES (FOR SMALL DEVIVES)
 /*---------------------------------------------------*/
